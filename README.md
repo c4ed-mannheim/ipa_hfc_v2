@@ -1,5 +1,7 @@
 # ipacheck
 
+IPA has recently (in 2022) released version 3 and 4 of the high-frequency checks packages. I've put up version 2 here so that you can easily install the older version.
+
 ## Overview
 ipacheck is a Stata package for running high-frequency checks on research data at Innovations for Poverty Action, including:
 
@@ -28,8 +30,9 @@ ipacheck comes with bundled with a master do-file and Excel-based inputs sheets.
 ```Stata
 * ipacheck may be installed directly from GitHub
 net install ipacheck, ///
-    from("https://raw.githubusercontent.com/PovertyAction/high-frequency-checks/master/ado") ///
+    from("https://raw.githubusercontent.com/c4ed-mannheim/ipa_hfc_v/main/ado") ///
     replace 
+
 
 * after initial installation ipacheck can be updated at any time via
 ipacheck update
