@@ -30,7 +30,7 @@ ipacheck comes with bundled with a master do-file and Excel-based inputs sheets.
 ```Stata
 * ipacheck may be installed directly from GitHub
 net install ipacheck, ///
-    from("https://raw.githubusercontent.com/c4ed-mannheim/ipa_hfc_v/main/ado") ///
+    from("https://raw.githubusercontent.com/c4ed-mannheim/ipa_hfc_v2/main/ado") ///
     replace 
 
 
