@@ -1,0 +1,14 @@
+~*
+*.zip
+
+# ignore the output file
+Example_HFC output.xlsx
+*_out.xlsx
+*_outputs.xlsx
+*out.xlsx
+
+# ignore the research file
+*research.xlsx
+
+# ignore the exercise folder
+exercise/
