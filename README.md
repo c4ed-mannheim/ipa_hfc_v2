@@ -7,7 +7,7 @@ IPA has recently (in 2022) released version 3 and 4 of the high-frequency checks
 ```Stata
 * ipacheck may be installed directly from GitHub
 net install ipacheck, ///
-    from("https://raw.githubusercontent.com/c4ed-mannheim/ipa_hfc_v2/main/ado") ///
+    from("https://raw.githubusercontent.com/c4ed-mannheim/ipa_hfc_v2/master/ado") ///
     replace 
 
 
