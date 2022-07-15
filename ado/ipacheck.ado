@@ -33,7 +33,7 @@ end
 program define ipacheckupdate
 	gettoken cmd 0 : 0, parse(" ,")
 
-	local url = "https://raw.githubusercontent.com/PovertyAction/high-frequency-checks"
+	local url = "https://raw.githubusercontent.com/c4ed-mannheim/ipa_hfc_v2"
 
 	if inlist(`"`cmd'"', "", "master") {
 		local url = "`url'/master/ado"
@@ -89,7 +89,7 @@ end
 program define ipachecknew
 	gettoken path 0 : 0, parse(" ,")
 
-	local url = "https://raw.githubusercontent.com/PovertyAction/high-frequency-checks/master/ado"
+	local url = "https://raw.githubusercontent.com/c4ed-mannheim/ipa_hfc_v2/master/ado"
 
 	if `"`path'"' != "" {
 		cd `"`path'"'
